@@ -29,7 +29,7 @@ body{
     position: relative;
     font-size: 25px;
     color:#0ef;
-    text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(1, 243, 251), 0 0 100px rgb(41, 171, 186), 0 0 200px rgb(23, 208, 214);
+    text-shadow: 0 0 5px rgb(169, 171, 170), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(1, 243, 251), 0 0 100px rgb(41, 171, 186), 0 0 200px rgb(99, 139, 141);
 
     text-decoration: none;
     font-weight: 600;
@@ -61,6 +61,7 @@ body{
     animation-delay: calc(.2s * var(--i));
 
 }
+
 .navbar a:hover{
 text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(1, 243, 251), 0 0 100px rgb(41, 171, 186), 0 0 200px rgb(23, 208, 214);
 }
@@ -84,7 +85,7 @@ text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url('./images/jan-huber-IcFFRhiVfbo-unsplash.jpg');
+    background-image: url('/images/jan-huber-IcFFRhiVfbo-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -196,7 +197,7 @@ text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(
 }
 
 .btn-box:hover{
- box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+ box-shadow: 0 0 2px cyan, 0 0 20px cyan, 0 0 5px cyan, 0 0 10px cyan, 0 0 60px cyan;
 
 }
 
@@ -223,9 +224,9 @@ text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(
 .about-text h2 span{
     color: #0ef;
 }
-.about-text h2 span:hover{
+/* .about-text h2 span:hover{
 text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(1, 243, 251), 0 0 100px rgb(41, 171, 186), 0 0 200px rgb(23, 208, 214);
-}
+} */
 
 .about-text h4{
     font-size: 29px;
@@ -238,11 +239,12 @@ text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(
 }
 
 .about-text p {
-
+    /* width: 100%; */
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
+    margin-bottom: 60px;
+    margin-right: 90px;
 }
 
 .container{
@@ -266,9 +268,9 @@ text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(
     color: #0ef;
 }
 
-.sub-title span:hover{
+/* .sub-title span:hover{
 text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(1, 243, 251), 0 0 100px rgb(41, 171, 186), 0 0 200px rgb(23, 208, 214);
-}
+} */
 
 .services-list{
     display: grid;
@@ -393,7 +395,7 @@ section{
     animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
     transform: scaleX(1);
     transform-origin: left;
-    box-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(1, 243, 251), 0 0 100px rgb(41, 171, 186), 0 0 200px rgb(23, 208, 214);
+    box-shadow: 0 0 5px rgb(8, 190, 154), 0 0 10px rgb(16, 201, 201), 0 0 10px rgb(1, 243, 251), 0 0 50px rgb(48, 121, 129), 0 0 50px rgb(65, 112, 113);
 }
 
 @keyframes animate{
@@ -444,7 +446,7 @@ section{
     opacity: 0;
 
 }
-.progress-line.html span::after{
+/* .progress-line.html span::after{
     content: "80%";
 }
 .progress-line.css span::after{
@@ -458,7 +460,7 @@ section{
 }
 .progress-line.react span::after{
     content: "60%";
-}
+} */
 
 .progress-line span::before{
     content: "";
@@ -616,10 +618,10 @@ section{
     
 }
 
-.main-text h2 span:hover{
+/* .main-text h2 span:hover{
     text-shadow: 0 0 5px rgb(8, 190, 154), 0 0 25px rgb(16, 201, 201), 0 0 50px rgb(1, 243, 251), 0 0 100px rgb(41, 171, 186), 0 0 200px rgb(23, 208, 214);
 
-}
+} */
 
 .portfolio-content{
     display: grid;
@@ -643,7 +645,7 @@ section{
 .layer{
     width: 100%;
     height: 0;
-    background:  linear-gradient(rgba(0,0,0,0.5), #0ef);
+    background:  linear-gradient(rgb(38, 37, 37), rgb(1, 238, 255));
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -685,6 +687,9 @@ section{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+.layer a{
+    text-decoration: none;
 }
 
 .row:hover img{
@@ -826,8 +831,9 @@ section{
     background: #0ef;
     color: rgb(255, 255, 255);
     box-shadow: 0 0 20px #0ef;
+    cursor: pointer;
 
-    box-shadow: 0 0 2px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan, 0 0 60px cyan;
+    /* box-shadow: 0 0 2px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan, 0 0 60px cyan; */
 }
 
 .last-text p{
@@ -853,10 +859,5 @@ section{
     padding: 10px;
     border-radius: 0.5rem;
 }
-
-
-
-
-
 
 
